@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <a class="bi fir" href="#">Design Studio</a>
+        <a class="bi n active" href="#about">About us</a>
+        <a class="bi n active" href="#projects">Our Projects</a>
+        <a class="bi n active" href="#contact">Contact us</a>
+    </nav>
+    <div class="heading">
+        <h1>Design Studio will open soon!</h1>    
+    </div>
+    <div class="cont">
+        <div class="studio">
+            <div class="block">
+                <h4 class="days"></h4>
+                <h3 class="time">DAYS</h3>
+            </div>
+        </div>
+        <div class="studio">
+            <div class="block">
+                <h4 class="hours"></h4>
+                <h3 class="time">HOURS</h3>
+            </div>
+        </div>
+        <div class="studio">
+            <div class="block">
+                <h4 class="minutes"></h4>
+                <h3 class="time">MINUTES</h3>
+            </div>
+        </div>
+        <div class="studio">
+            <div class="block">
+                <h4 class="seconds"></h4>
+                <h3 class="time">SECONDS</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item one selected">
+            <h4 class="gallery">Kitchens</h4>
+            <p class="par">Incredible design and furniture for every taste</p>
+            <p class="price">from 1300$</p>
+        </div>
+        <div class="item two selected ch">
+            <h4 class="gallery">Bathrooms</h4>
+            <p class="par">Any level of complexity</p>
+            <p class="price">from 800$</p>
+        </div>
+        <div class="item three selected ch">
+            <h4 class="gallery">Living rooms</h4>
+            <p class="par">Our designers will help you create the interior of your dream</p>
+            <p class="price">from 1000$</p>
+        </div>
+        <div class="item four selected ch">
+            <h4 class="gallery">Bedrooms</h4>
+            <p class="par">We create and produce beautiful, comfortable and functional furniture</p>
+            <p class="price"> from 1500$</p>
+        </div>
+    </div>
+    <section id="about">
+    <div class="heading">
+        <h3>About us</h3>
+    </div> 
+    <div class ="about">
+        <p class="write">Our Design Studio offers a comprehensive design service creating beautifully crafted interiors.<br> 
+        Also, we design and manufacture all types of home furniture.</p>   
+    </div>
+    </section>
+    <section id="projects">
+    <div class="heading">
+        <h3>Our projects</h3>    
+    </div>
+    <div id="contain">
+        <button id="back" class="btn1"><img src="https://img.icons8.com/ios-glyphs/24/000000/double-left.png"/></button>
+        <img id="pictures" src="1.jpg" alt="Flat">
+        <button id="next" class="btn1"><img src="https://img.icons8.com/material-outlined/24/000000/double-right.png"/></button>
+    </div>
+    </section>
+    <section id="contact">
+    <div class = "heading">
+        <h3>Contact us</h3>
+    </div>
+    <form action="https://formspree.io/f/mwkyekzg"method="POST">
+        <input type="hidden"name="_language" value="en">
+    <div class="heading">
+    <label>
+    Email:
+    <input type="email" class="text-imput" name="_replyto" placeholder="Your email..." required="">
+    </label>
+    </div>
+        <br>
+    <div class="heading">
+    <label>
+    Message:
+    <textarea name="message" class="text-imput" placeholder="Type your massage..." required=""></textarea>
+    </label>
+    </div>
+    </section>
+        <br>
+    <div class ="heading">
+    <button class="btn" type="submit">Send</button>
+    </div>
+    </form>
+    <br>
+    <hr>
+    <div class="list">
+        <p class="end">@ Design Studio 2021</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

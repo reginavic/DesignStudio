@@ -1,0 +1,292 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2b1923;
+    padding: 30px;
+}
+.bi {
+    color: beige;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Lora', serif;
+}
+.n:hover {
+    text-decoration: underline;
+}
+.fir {
+    margin-right: auto;
+    font-family:'Lora', serif;
+    font-size: 30px;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1, h3 {
+    font-family:'Lora', serif;
+    font-size: 60px;
+    color: rgb(243, 199, 226);
+}
+.one {
+    background-image: url('4.jpg');
+}
+.two {
+    background-image: url('8.jpg');
+}
+.three {
+    background-image: url('15.jpg');
+}
+.four {
+    background-image: url('19.jpg');
+}
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lora', serif;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+body{
+    background-color: #412333;
+}
+.gallery {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: beige;
+    background-color: transparent;
+    opacity: 0;
+}
+.par {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: beige;
+    background-color: transparent;
+    opacity: 0;
+}
+.price {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: beige;
+    background-color: transparent;
+    opacity: 0;
+}
+.selected {
+    flex: 4;
+}
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in; 
+    opacity: 1; 
+}
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+label {
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    color: beige;
+}
+.text-imput {
+    background-color: #faf1e6;
+    border: none;
+    padding: 12px 17px;
+}
+.btn {
+    background-color: #c056b2;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 10px;
+    width: 400px;
+    cursor: pointer;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+}
+#contain {
+    display: flex;
+    justify-content:center;
+}
+#pictures {
+    width: 600px;
+}
+.btn1 {
+    background-color: #eec5e8;
+    opacity: 0.6;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: #3b2c35;
+    border: none;
+    border-radius: 5px;
+}
+.about {
+    display: flex;
+    justify-content:center;
+}
+.write {
+    font-family:'Lora', serif;
+    font-size: 30px;
+    color: beige;
+}
+.list {
+    display: flex;
+}
+.end {
+    color:  beige;
+    font-size: 20px;
+}
+.cont {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.studio {
+    background-color: rgba(241, 139, 236, 0.1);
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 4px rgb(211, 208, 201);
+    }
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.days, .hours, .minutes, .seconds {
+    font-size: 40px; 
+    color: beige;
+}
+.time {
+    font-size: 30px;
+    color: beige;
+}
+.DS {
+    font-size: 30px;
+    border: none;
+}
+@media all and (max-width:800px) {
+    #pictures {
+        width: 500px;
+    }
+    .nav {
+        padding: 15px;
+    }
+    .bi {
+        padding: 10px;
+    }
+    .fir {
+        font-size: 27px;
+    }
+    h1, h3 {
+        font-size: 30px;
+        top: 10px;
+        left: 20px;
+    }
+    .item {
+        height: 50vh;
+    } 
+    h4 {
+        top: 15px;
+        left: 20px;
+        font-size: 15px;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .container {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .selected h4 {
+        font-size: 20px;
+    }
+    .selected .par {
+        font-size: 10px;
+    }
+    .selected .price {
+        font-size: 15px;
+    }
+    label {
+        font-size: 15px;
+    }
+    #pictures {
+        width: 250px;
+    }
+    .btn1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+@media all and (max-width:500px) {
+    #pictures {
+        width: 500px;
+    }
+    .nav {
+        padding: 5px;
+    }
+    .bi {
+        padding: 5px;
+    }
+    .fir {
+        font-size: 20px;
+    }
+    .item {
+        height: 50vh;
+    } 
+    h4 {
+        top: 15px;
+        left: 20px;
+        font-size: 15px;
+    }
+    h1, h3 {
+        font-size: 30px;
+        top: 10px;
+        left: 20px;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .container {
+    flex-direction: column;
+    height: 100vh;
+    }
+    .selected h4 {
+        font-size: 20px;
+    }
+    .selected .par {
+        font-size: 10px;
+    }
+    .selected .price {
+        font-size: 15px;
+    }
+    label {
+        font-size: 15px;
+    }
+    #pictures {
+        width: 250px;
+    }
+    .btn1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
